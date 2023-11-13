@@ -1,0 +1,24 @@
+[0m17:54:55.379554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FA882250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FA8818D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FA7F8E90>]}
+
+
+============================== 17:54:55.393083 | 144d5623-afb0-4be4-9a88-28e700a7c457 ==============================
+[0m17:54:55.393083 [info ] [MainThread]: Running with dbt=1.7.1
+[0m17:54:55.394101 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\IWANG\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init my_project', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:54:55.397792 [info ] [MainThread]: A project called my_project already exists here.
+[0m17:54:55.399800 [debug] [MainThread]: Command `dbt init` succeeded at 17:54:55.398792 after 0.08 seconds
+[0m17:54:55.399800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FA8DE110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FACA4450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FA580210>]}
+[0m17:54:55.400800 [debug] [MainThread]: Flushing usage events
+[0m18:03:12.062566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCCF380E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCD2B4CAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCD2B055D0>]}
+
+
+============================== 18:03:12.077228 | 6048bbbe-e5d2-4724-9849-59966eecae6e ==============================
+[0m18:03:12.077228 [info ] [MainThread]: Running with dbt=1.7.1
+[0m18:03:12.077228 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\IWANG\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:03:12.078665 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Altera Academy\latihan\dbt-demo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:03:12.080149 [debug] [MainThread]: Command `dbt run` failed at 18:03:12.080149 after 0.07 seconds
+[0m18:03:12.081643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCD2FD43D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCD2833E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FCCB6AE810>]}
+[0m18:03:12.081643 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,14 @@
+1. DBT (Data Build Tool) adalah sebuah software open-source yang digunakan untuk transformasi data untuk keperluan data analis.
+
+2. Keuntungan menggunakan DBT adalah : 
+	- Kualitas data yang lebih bagus
+	  (DBT meningkatkan kualitas data melalui berbagai tes dan validasi)
+
+	- Pemeliharaan yang mudah
+	  (Semua proses pemeliharaan data bisa dilakukan secara otomatis)
+
+	- Konsistensi data
+	  (DBT menghasilkan data yang konsisten menggunakan model, sehingga semua orang dalam satu project menggunakan data yang sama.
+	
+	- Mengurangi beban teknis
+	  (Dengan menggunakan DBT, para data analis tidak perlu lagi melakukan proses ETL yang rumit dan melelahkan)
