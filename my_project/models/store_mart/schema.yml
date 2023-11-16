@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fct_per_brand_daily_sales
+    description: "daily sales of every brand"
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - order_date
+            - brand_name
+
+        

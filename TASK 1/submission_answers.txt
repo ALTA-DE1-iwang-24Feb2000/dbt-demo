@@ -12,3 +12,9 @@
 	
 	- Mengurangi beban teknis
 	  (Dengan menggunakan DBT, para data analis tidak perlu lagi melakukan proses ETL yang rumit dan melelahkan)
+
+3. - Versioning:
+	Versioning dalam konteks dbt merujuk pada praktek mengelola versi dari proyek dbt yang melibatkan pelacakan perubahan di kode dbt, mengelola versi dependencies, dan memastikan konsistensi antara kode dbt dan data warehouse
+
+- Dependency trees:
+	Dependency trees pada dbt merujuk pada struktur hierarki dari model-model dalam proyek dbt dan cara model-model tersebut saling bergantung satu sama lain. dbt menggunakan pohon ketergantungan untuk memahami dan mengelola urutan eksekusi saat menjalankan proses seperti dbt run atau dbt test.
