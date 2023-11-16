@@ -8,5 +8,9 @@ models:
           combination_of_columns:
             - order_date
             - brand_name
-
+  
+  - name: fct_per_country_daily_sales
+    description: "daily sales per country"
+    tests:
+      - not_null
         
